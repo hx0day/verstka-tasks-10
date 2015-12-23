@@ -194,9 +194,13 @@
 
 .story
 {
-    background: transparent url('img/path.png') no-repeat scroll 96px 24px;
-    height: 2453px;
     position: relative;
+}
+
+.story_path_head
+{
+    margin-top: 29px;
+    margin-left: 96px;
 }
 
 .story--padding
@@ -206,159 +210,47 @@
 
 .story__one
 {
+
     width: 292px;
-    position: absolute;
-    left: 90px;
-    top: 80px;
     line-height: 24px;
     text-align: center;
+    margin-left: 88px;
 }
 
-.story__one-img
+.story_path_two
 {
-    position: relative;
-    padding-top: 101px;
-}
-
-.story__one-phone,
-.story__one-pen,
-.story__one-ticket,
-.story__one-notebook,
-.story__one-watch,
-.story__one-photo
-{
-    position: absolute;
-}
-
-.story__one-phone
-{
-    top: 352px;
-    left: -17px;
-}
-
-.story__one-pen
-{
-    top: 353px;
-    left: 331px;
-}
-
-.story__one-ticket
-{
-    top: 459px;
-    right: 92px;
-}
-
-.story__one-watch
-{
-    top: 618px;
-    right: 339px;
-}
-
-.story__one-photo
-{
-    top: 573px;
-    right: -20px;
-}
-
-.story__one-notebook
-{
-    right: 163px;
+    margin-top: -192px;
+    margin-left: -19px;
 }
 
 .story__two
 {
     width: 295px;
-    position: absolute;
-    right: 95px;
-    top: 883px;
     line-height: 24px;
     text-align: center;
+    float: right;
+    margin-right: 96px;
 }
 
-.story__two-img
+.story_path_three
 {
-    position: relative;
-    padding-top: 813px;
-}
-
-.story__two-iphone,
-.story__two-ipad,
-.story__two-cup,
-.story__two-mask,
-.story__two-palka
-{
-    position: absolute;
-}
-
-.story__two-iphone
-{
-    top: 1137px;
-    left: 47px;
-}
-
-.story__two-cup
-{
-    top: 1181px;
-    left: 330px;
-}
-
-.story__two-mask
-{
-    top: 1050px;
-    right: 0;
-}
-
-.story__two-palka
-{
-    right: 7px;
-}
-
-.story__two-ipad
-{
-    left: 205px;
+    margin-top: -179px;
+    margin-left: 46px;
 }
 
 .story__three
 {
     width: 297px;
-    position: absolute;
-    left: 80px;
-    bottom: 563px;
     line-height: 24px;
     text-align: center;
+    margin-left: 78px;
+    margin-top: -3px;
 }
-
-.story__three-img
+.story_path_end
 {
-    position: relative;
-    padding-top: 1538px;
+margin-top: -276px;
+margin-left: 92px;
 }
-
-.story__three-bag,
-.story__three-newspaper,
-.story__three-magazine
-{
-    position: absolute;
-}
-
-.story__three-bag
-{
-    bottom: 404px;
-    right: 38px;
-}
-
-.story__three-newspaper
-{
-    bottom: 56px;
-    left: 93px;
-}
-
-.story__three-magazine
-{
-    bottom: -45px;
-    right: -20px;
-}
-
 .footer
 {
     position: relative;
